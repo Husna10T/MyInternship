@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://wallpapertag.com/wallpaper/full/0/b/2/974915-desktop-backgrounds-ocean-1920x1200-for-mac.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    font-family: monospace, sans-serif;
+    color: #061013;
+    
+}
+
+.container {
+    background: rgba(78, 189, 189, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 10px rgba(62, 123, 128, 0.3);
+    width: 85%;
+    max-width: 800px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.temp-container {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 60%;
+    font-family: monospace;
+    padding: 5px;
+    outline: none;
+    background: rgba(15, 76, 94, 0.3);
+    border-color: rgba(25, 190, 190, 0.6);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: rgb(39, 36, 37);
+}
+
+/* Responsive CSS */
+@media (min-width: 600px) {
+    .container {
+        width: 70%;
+    }
+
+    input {
+        width: 50%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 60%;
+    }
+
+    input {
+        width: 40%;
+    }
+}
